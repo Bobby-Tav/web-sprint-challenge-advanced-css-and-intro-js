@@ -167,10 +167,28 @@ button:hover{
    .artists-container{
        flex-flow:column;
        justify-content: center;
+       width:100%;
+       align-items:center;
    }
    .artist{
-    width:60%;
+    width:85%;
     text-align:center;
-}
+    margin: 5%;
+   }
+   .artist a{
+       font-size:2.2rem;
+   }
+   .artist img{
+    width:75%;
+    height:auto;
+   }
+   .artist .bio{
+       line-height: 1.3;
+   }
+   .artist:nth-last-child(1){
+       margin-bottom: 10%;
+
+   }
+   
 
 }
